@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px !important;
+}
+.client-form {
+    justify-content: center;
+}
+.form-control {
+    padding: 5px !important;
+}
+.radio {
+    text-align: center !important;
+}
+.special {
+    text-align: center !important;
+}
+.d-block {
+    margin-bottom: 15px;
+}
+.require {
+    text-align: right;
+    color: red;
+}

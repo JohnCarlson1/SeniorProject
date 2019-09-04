@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+li {
+    list-style: none;
+    font-weight: bold;
+}
+.col-sm-10 {
+    margin-right: 0px;
+    padding-right: 0px !important;
+}
+.col-sm-2 {
+    padding-left: 0px !important;
+}
+.list-group-item {
+    padding: 5px !important;
+}
+.btn-block {
+    margin-top: 10px;
+}
+@media only screen and (max-width: 450px) {
+    .btn-outline-dark {
+        float: right;
+        margin-top: 5px;
+    }
+    .col-sm-10 {
+        height: 34px;
+    }
+    .col-sm-2 {
+        height: 31px;
+        position: relative;
+        top: -15px;
+    }
+    .hidden {
+        display: none;
+    }
+}

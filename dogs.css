@@ -1,0 +1,80 @@
+body {
+    max-height: 100vh;
+}
+.profile-border {
+    border-style: solid;
+    border-color: #474646;
+    padding: 20px;
+    border-width: .2rem;
+}
+.profile-border img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+.profile-border {
+    text-align: center;
+}
+.list-group-item {
+    word-wrap: break-word;
+    padding: 5px;
+}
+li {
+    font-weight: bold;
+    text-align: left;
+}
+.col-md-10 {
+    margin-bottom: 20px;
+}
+.col-sm-11 {
+    padding-right: 0px;
+}
+.col-sm-8 {
+    padding-right: 0px;
+}
+.col-sm-1 {
+    padding-left: 0px;
+}
+.col-sm-3 {
+    padding-left: 0px;
+}
+.owner {
+    font-size: 1.2rem;
+}
+.btn-block {
+    margin-top: 10px;
+}
+#random {
+    margin-bottom: 20px;
+}
+#pic-submit {
+    text-align: left;
+    display:block;
+}
+.center {
+    text-align: center;
+}
+@media only screen and (max-width: 450px) {
+    .col-sm-11 {
+        padding-right: 10px;
+    }
+    .col-sm-8 {
+        padding-right: 10px;
+    }
+    .col-sm-1 {
+        padding-left: 10px;
+        text-align: right;
+    }
+    .col-sm-3 {
+        padding-left: 10px;
+        position: relative;
+        top: -10px;
+    }
+    .layers {
+        margin: 10px;
+    }
+    .pro {
+        margin-bottom: 10px;
+        text-align: right;
+    }
+}
